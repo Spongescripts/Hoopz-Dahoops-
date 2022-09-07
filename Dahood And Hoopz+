@@ -1,3 +1,11 @@
+local plr = game:GetService("Players").LocalPlayer
+local gamePass = 10663755021 -- put your gamepass Id
+
+if game:GetService("MarketplaceService"):UserOwnsGamePassAsync(plr.UserId, gamePass) or plr:IsInGroup(group) then
+    
+end
+
+
 _, Protected_by_MoonSecV2, Discord = 'discord.gg/gQEH2uZxUk'
 
 
