@@ -1,4 +1,5 @@
 local plr = game:GetService("Players").LocalPlayer
+local group = 15316705 -- put id
 local gamePass = 10663755021 -- put your gamepass Id
 
 if game:GetService("MarketplaceService"):UserOwnsGamePassAsync(plr.UserId, gamePass) or plr:IsInGroup(group) then
